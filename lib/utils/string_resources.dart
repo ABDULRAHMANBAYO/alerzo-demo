@@ -5,6 +5,7 @@ class StringResources {
   static const PASSWORD = "Password";
   static const LOGIN = "Log In";
   static const DONT_HAVE_AN_ACCOUNT = "Don’t have an account? ";
+  static const HAVE_AN_ACCOUNT = "Have an account? ";
   static const SIGN_UP = "Sign Up";
   static const CREATE_AN_ACCOUNT = "Create an Account";
   static const JOIN_US = "Join us, We’re happy to have you! ";
@@ -15,4 +16,21 @@ class StringResources {
   static const ID = "ID:";
   static const TITLE = "Title:";
   static const BODY = "Body:";
+  static const ENTER_VALID_EMAIL_REQUIRED = 'Enter a valid email address';
+  static const EMAIL_IS_EMPTY = 'Email address is required';
+  static const PASSWORD_REQUIRED = 'Please enter password';
+  static const ENTER_VALID_PASSWORD_REQUIRED =
+      "Password require at least one uppercase letter, one lowercase letter and one numeric character";
+  static const MINIMUM_PASSWORD =
+      "Password must be minimum of eight characters";
+  static const UPPER_CASE_REQUIRED =
+      "Password require at least one uppercase letter";
+  static const LOWER_CASE_REQUIRED =
+      "Password require at least one lowercase letter";
+  static const NUMBER_REQUIRED =
+      "Password require at least one numeric character";
+  static const SPECIAL_CHARACTER_REQUIRED =
+      "Password require at least one special character";
+  static const ENTER_NAME = 'Please enter name';
+  static const ENTER_VALID_NAME = 'Please enter valid name';
 }
