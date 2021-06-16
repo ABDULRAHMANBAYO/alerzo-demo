@@ -31,3 +31,14 @@ String? validatePassword(value) {
     return StringResources.ENTER_VALID_PASSWORD_REQUIRED;
   }
 }
+
+String? validateName(fullName) {
+  String patttern = r'^[a-z A-Z,.\-]+$';
+  RegExp regExp = new RegExp(patttern);
+  if (fullName!.length == 0) {
+    return StringResources.ENTER_NAME;
+  } else if (!regExp.hasMatch(fullName)) {
+    return StringResources.ENTER_VALID_NAME;
+  }
+  return null;
+}
