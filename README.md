@@ -1,6 +1,6 @@
 # alerzo_demo
 
-A new Flutter project.
+A demo project for alerzo.
 
 ## Getting Started
 
