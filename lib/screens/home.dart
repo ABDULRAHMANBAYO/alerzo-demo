@@ -20,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   late double height, width;
   PostRepository _postRepository = PostRepository();
   List<PostDetail> posts = [];
+
   @override
   Widget build(BuildContext context) {
     height = MediaQuery.of(context).size.height;
@@ -121,20 +122,22 @@ class _HomeScreenState extends State<HomeScreen> {
                   textAlign: TextAlign.justify))
         ],
       );
-  Widget progressIndidcator() => Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            SizedBox(
-                height: 20.0,
-                width: 20.0,
-                child: CircularProgressIndicator(
-                    backgroundColor: AssetColors.primaryColor,
-                    strokeWidth: 2.0)),
-            Padding(
-                padding: EdgeInsets.only(top: 16),
-                child: Text(StringResources.LOADING,
-                    style: subTitleTextStyle(width),
-                    textAlign: TextAlign.center))
-          ]);
+  Widget progressIndidcator() => Center(
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              SizedBox(
+                  height: 20.0,
+                  width: 20.0,
+                  child: CircularProgressIndicator(
+                      backgroundColor: AssetColors.primaryColor,
+                      strokeWidth: 2.0)),
+              Padding(
+                  padding: EdgeInsets.only(top: 16),
+                  child: Text(StringResources.LOADING,
+                      style: subTitleTextStyle(width),
+                      textAlign: TextAlign.center))
+            ]),
+      );
 }
