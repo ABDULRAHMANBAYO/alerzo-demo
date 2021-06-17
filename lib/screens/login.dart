@@ -61,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Center(child: screenImage()),
+                Center(child: screenImage(width)),
                 _welcomeText(),
                 _buildEmailAddress(),
                 _buildPassword(),

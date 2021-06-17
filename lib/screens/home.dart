@@ -36,7 +36,8 @@ class _HomeScreenState extends State<HomeScreen> {
             Row(
               children: [
                 Text(StringResources.WELCOME_NAME, style: nameTextStyle(width)),
-                SvgPicture.asset(AssetResources.HAND_EMOJI)
+                SvgPicture.asset(AssetResources.HAND_EMOJI,
+                    height: height * 0.05)
               ],
             ),
             Text(StringResources.INFORMATION,
@@ -52,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
         duration: Duration(milliseconds: _animationDuration),
         padding: EdgeInsets.symmetric(vertical: width * 0.02),
         child: SizedBox(
-          height: width * 0.4,
+          height: width * 0.45,
           child: Card(
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10.0)),

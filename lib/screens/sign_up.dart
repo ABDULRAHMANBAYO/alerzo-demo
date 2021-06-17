@@ -66,7 +66,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Center(child: screenImage()),
+                Center(child: screenImage(width)),
                 _welcomeText(),
                 _buildFirstName(),
                 _buildLastName(),

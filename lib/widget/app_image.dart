@@ -1,4 +1,5 @@
 import 'package:alerzo_demo/utils/assets_images.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-Widget screenImage() => SizedBox(child: Image.asset(AssetResources.LOGIN_PNG));
+Widget screenImage(width) =>
+    Image.asset(AssetResources.LOGIN_PNG, width: width * 0.4);
