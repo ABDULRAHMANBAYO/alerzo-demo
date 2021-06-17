@@ -60,4 +60,20 @@ void main() {
     var result = validatePassword("Olawale2018.");
     expect(result, null);
   });
+
+  group('Login with valid email and password', () {
+    //Test valid email address
+    test("Test valid email address", () {
+      var result = validateEmail("lambe@gamil.com");
+      expect(result, null);
+    });
+
+    //Test empty password
+
+    //Test valid password
+    test("Test valid  password ", () {
+      var result = validatePassword("Olawale2018.");
+      expect(result, null);
+    });
+  });
 }
