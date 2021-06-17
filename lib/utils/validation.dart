@@ -27,7 +27,11 @@ String? validatePassword(value) {
     return StringResources.NUMBER_REQUIRED;
   } else if (!value.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>\~]'))) {
     return StringResources.SPECIAL_CHARACTER_REQUIRED;
-  } else if (!regex.hasMatch(value)) {
+  }
+  // else if (value.toString().length < 8) {
+  //   return StringResources.MINIMUM_PASSWORD;
+  // }
+  else if (!regex.hasMatch(value)) {
     return StringResources.ENTER_VALID_PASSWORD_REQUIRED;
   }
 }

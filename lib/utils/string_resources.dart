@@ -20,7 +20,8 @@ class StringResources {
   static const EMAIL_IS_EMPTY = 'Email address is required';
   static const PASSWORD_REQUIRED = 'Please enter password';
   static const ENTER_VALID_PASSWORD_REQUIRED =
-      "Password require at least one uppercase letter, one lowercase letter and one numeric character";
+      "Password require at least one uppercase letter, one lowercase letter and one numeric character and minimum of 8 characters";
+
   static const MINIMUM_PASSWORD =
       "Password must be minimum of eight characters";
   static const UPPER_CASE_REQUIRED =
