@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 Widget submitButton(
         String buttonText, Function onPressed, double height, double width) =>
     ElevatedButton(
-        onPressed: () => onPressed,
+        onPressed: () => onPressed(),
         child: Text(buttonText, style: buttonTextStyle(width)),
         style: ElevatedButton.styleFrom(
             elevation: 0.0,
