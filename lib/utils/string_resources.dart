@@ -11,11 +11,11 @@ class StringResources {
   static const JOIN_US = "Join us, We’re happy to have you! ";
   static const FIRST_NAME = "First Name";
   static const LAST_NAME = "Last Name";
-  static const WELCOME_NAME = "Hi Ade";
+  static const WELCOME_NAME = "Hi Ade ";
   static const INFORMATION = "The information below is API based";
-  static const ID = "ID:";
-  static const TITLE = "Title:";
-  static const BODY = "Body:";
+  static const ID = "ID:  ";
+  static const TITLE = "Title:  ";
+  static const BODY = "Body:  ";
   static const ENTER_VALID_EMAIL_REQUIRED = 'Enter a valid email address';
   static const EMAIL_IS_EMPTY = 'Email address is required';
   static const PASSWORD_REQUIRED = 'Please enter password';
@@ -33,4 +33,18 @@ class StringResources {
       "Password require at least one special character";
   static const ENTER_NAME = 'Please enter name';
   static const ENTER_VALID_NAME = 'Please enter valid name';
+  static const TIME_OUT_EXCEPTION = 'Connection time out... Please try again.';
+  static const SOCKET_EXCEPTION =
+      'No internet connection. Please check your connection.';
+  static const HANDSHAKE_EXCEPTION = 'Internet error. Please try again.';
+  static const OPERATION_SUCCESSFUL = "Operation  Successfull";
+  static const SERVICE_UNAVAILABLE = "Service unavailable";
+  static const SESSION_EXPIRED = "Session expired";
+  static const OPERATION_FAILED = "Operation Failed ";
+  static const UNAUTHORIZED = "Unauthorized";
+  static const OPERATION_FAILED_PLEASE_TRY_AGAIN =
+      "Operation Failed, Please try again.";
+  static const NOT_FOUND = "Not found.";
+  static const BAD_REQUEST = "Something went wrong";
+  static const LOADING = 'Loading post...';
 }
