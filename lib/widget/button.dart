@@ -9,7 +9,7 @@ Widget submitButton(
         child: Text(buttonText, style: buttonTextStyle(width)),
         style: ElevatedButton.styleFrom(
             elevation: 0.0,
-            minimumSize: Size(width, 0.055 * height),
+            minimumSize: Size(width, 0.06 * height),
             primary: AssetColors.primaryColor,
             shape: RoundedRectangleBorder(
-                borderRadius: new BorderRadius.circular(15.0))));
+                borderRadius: new BorderRadius.circular(10.0))));
