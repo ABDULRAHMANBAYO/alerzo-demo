@@ -2,46 +2,55 @@ import 'package:alerzo_demo/utils/assets_colors.dart';
 import 'package:flutter/material.dart';
 
 loginTextStyle(width) => TextStyle(
-    fontSize: width * 0.07,
+    fontFamily: 'Regular',
+    fontSize: width * 0.06,
     color: AssetColors.titleTextColor,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w700);
-welcomeTextStyle(width) => TextStyle(
-    fontSize: width * 0.05,
+welcomeTextStyle(width, height) => TextStyle(
+    fontFamily: 'Light',
+    height: height * 0.0025,
+    fontSize: width * 0.045,
     color: AssetColors.subTextColor,
-    fontStyle: FontStyle.normal,
-    fontWeight: FontWeight.w400);
+    fontStyle: FontStyle.normal);
 textFieldPlaceholderTextStyle(width) => TextStyle(
-    fontSize: width * 0.035,
-    color: AssetColors.subTextColor,
+    fontFamily: 'Thin',
+    fontSize: width * 0.04,
+    color: AssetColors.titleTextColor,
     fontStyle: FontStyle.normal,
-    fontWeight: FontWeight.w400);
+    fontWeight: FontWeight.w500);
 labelTextFieldTextStyle(width) => TextStyle(
-    fontSize: width * 0.05,
+    fontFamily: 'Thin',
+    fontSize: width * 0.045,
     color: AssetColors.primaryColor,
     fontStyle: FontStyle.normal,
-    fontWeight: FontWeight.w400);
+    fontWeight: FontWeight.w600);
 errorTextStyle(width) => TextStyle(
-    fontSize: width * 0.05,
+    fontFamily: 'Thin',
+    fontSize: width * 0.035,
     color: AssetColors.errColor,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w400);
 textFieldTextStyle(width) => TextStyle(
+    fontFamily: 'Thin',
     fontSize: width * 0.03,
-    color: AssetColors.subTextColor,
+    color: AssetColors.titleTextColor,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w400);
 buttonTextStyle(width) => TextStyle(
+    fontFamily: 'Regular',
     fontSize: width * 0.045,
     color: Colors.white,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w700);
 bottomTextOneStyle(width) => TextStyle(
-    fontSize: width * 0.045,
-    color: AssetColors.subTextColor,
-    fontStyle: FontStyle.normal,
-    fontWeight: FontWeight.w400);
+      fontFamily: 'Light',
+      fontSize: width * 0.045,
+      color: AssetColors.subTextColor,
+      fontStyle: FontStyle.normal,
+    );
 bottomTextTwoStyle(width) => TextStyle(
+    fontFamily: 'Light',
     fontSize: width * 0.045,
     color: AssetColors.primaryColor,
     fontStyle: FontStyle.normal,
